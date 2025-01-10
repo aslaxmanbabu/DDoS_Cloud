@@ -1,0 +1,942 @@
+2025/01/05 20:12:46 [error] 27936#36104: *4 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:12:46 [error] 27936#36104: *4 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:15:00 [error] 27936#36104: *7 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:15:01 [error] 27936#36104: *7 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:15:15 [error] 27936#36104: *7 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:15:21 [error] 27936#36104: *7 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:15:21 [error] 27936#36104: *7 CreateFile() "./html/test" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "localhost"
+2025/01/05 20:20:29 [notice] 38204#32516: signal process started
+2025/01/05 21:02:25 [notice] 34936#36672: signal process started
+2025/01/05 21:04:10 [notice] 37748#20656: signal process started
+2025/01/05 22:13:54 [error] 7328#964: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/05 22:26:52 [notice] 25924#35216: signal process started
+2025/01/05 22:27:05 [error] 19336#12812: *4 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/01/05 22:30:14 [notice] 37764#6552: signal process started
+2025/01/05 22:33:46 [notice] 1572#30312: signal process started
+2025/01/05 22:35:24 [notice] 37724#31240: signal process started
+2025/01/05 22:38:29 [error] 20160#13392: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /sandbox HTTP/1.1", upstream: "http://[::1]:8080/sandbox", host: "localhost"
+2025/01/05 22:38:31 [error] 20160#13392: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /sandbox HTTP/1.1", upstream: "http://127.0.0.1:8080/sandbox", host: "localhost"
+2025/01/05 22:40:00 [notice] 21588#29876: signal process started
+2025/01/05 22:41:32 [error] 20008#25536: *22 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:54):4: attempt to index field 'timer' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:54): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /timer HTTP/1.1", host: "localhost"
+2025/01/05 22:53:19 [notice] 11584#3440: signal process started
+2025/01/05 22:53:25 [error] 28844#33832: *25 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:53:25 [error] 28844#33832: *25 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:53:30 [error] 28844#33832: *25 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:53:31 [error] 28844#33832: *25 CreateFile() "./html/captcha" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /captcha HTTP/1.1", host: "localhost"
+2025/01/05 22:57:34 [error] 28844#33832: *27 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:57:34 [error] 28844#33832: *27 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:57:37 [notice] 35300#6528: signal process started
+2025/01/05 22:57:39 [error] 28844#33832: *28 "./html/custom/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/05 22:58:32 [notice] 38352#15580: signal process started
+2025/01/05 22:59:00 [error] 35000#31012: *31 CreateFile() "./html/captcha" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /captcha HTTP/1.1", host: "localhost"
+2025/01/05 22:59:36 [error] 35000#31012: *31 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/05 23:02:24 [error] 35000#31012: *33 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/05 23:02:28 [notice] 26336#30408: signal process started
+2025/01/05 23:03:09 [error] 35000#31012: *34 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/05 23:07:43 [notice] 33364#6748: signal process started
+2025/01/06 01:34:39 [emerg] 12920#21352: CreateFile() "./logs/nginx.pid" failed (3: The system cannot find the path specified)
+2025/01/06 01:36:07 [notice] 21616#12156: signal process started
+2025/01/06 01:36:17 [notice] 27236#14844: signal process started
+2025/01/06 01:38:49 [emerg] 37816#3824: CreateFile() "./logs/nginx.pid" failed (3: The system cannot find the path specified)
+2025/01/06 01:40:50 [emerg] 33216#23368: CreateFile() "./logs/nginx.pid" failed (3: The system cannot find the path specified)
+2025/01/06 01:49:26 [notice] 34088#11768: signal process started
+2025/01/06 01:50:00 [notice] 14448#31652: signal process started
+2025/01/06 01:50:00 [error] 14448#31652: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/06 01:50:47 [notice] 26600#37500: signal process started
+2025/01/06 02:16:04 [error] 9904#24744: *2 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:16:07 [error] 9904#24744: *2 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:18:46 [error] 9904#24744: *4 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:18:56 [error] 9904#24744: *4 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:29:55 [notice] 36276#23320: signal process started
+2025/01/06 02:30:58 [notice] 12624#23396: signal process started
+2025/01/06 02:33:30 [notice] 18816#35572: signal process started
+2025/01/06 02:33:35 [error] 14500#16432: *11 failed to load inlined Lua code: content_by_lua(nginx.conf:51):4: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:33:45 [error] 14500#16432: *12 failed to load inlined Lua code: content_by_lua(nginx.conf:51):4: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:34:05 [error] 14500#16432: *13 failed to load inlined Lua code: content_by_lua(nginx.conf:51):4: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:26 [notice] 32356#9072: signal process started
+2025/01/06 02:35:35 [error] 6708#25816: *14 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:35 [error] 6708#25816: *14 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:37 [error] 6708#25816: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:37 [error] 6708#25816: *16 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:37 [error] 6708#25816: *16 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:39 [error] 6708#25816: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://127.0.0.1:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:39 [error] 6708#25816: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://127.0.0.1:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:39 [error] 6708#25816: *16 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://localhost/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:49 [error] 6708#25816: *16 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:49 [error] 6708#25816: *16 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:51 [error] 6708#25816: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:35:53 [error] 6708#25816: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://127.0.0.1:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:38:10 [error] 6708#25816: *21 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:38:10 [error] 6708#25816: *21 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:38:21 [error] 6708#25816: *21 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:38:21 [error] 6708#25816: *21 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:43:27 [error] 6708#25816: *25 [lua] content_by_lua(nginx.conf:51):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:43:27 [error] 6708#25816: *25 [lua] content_by_lua(nginx.conf:51):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:43:29 [error] 6708#25816: *25 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 02:43:50 [notice] 1340#3392: signal process started
+2025/01/06 03:05:27 [notice] 22360#28740: signal process started
+2025/01/06 03:06:05 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:05 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:07 [error] 14716#25116: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:12 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:12 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:14 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:06:14 [error] 14716#25116: *7 [lua] content_by_lua(nginx.conf:40):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:08:48 [notice] 9060#36404: signal process started
+2025/01/06 03:09:00 [error] 29312#23620: *13 [lua] content_by_lua(nginx.conf:40):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:09:00 [error] 29312#23620: *13 [lua] content_by_lua(nginx.conf:40):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:09:00 [error] 29312#23620: *13 [lua] content_by_lua(nginx.conf:40):33: Captcha valid, proceeding to proxy..., client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:09:02 [error] 29312#23620: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:15:52 [notice] 11088#16560: signal process started
+2025/01/06 03:17:30 [error] 4744#32716: *1 [lua] content_by_lua(nginx.conf:40):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:17:30 [error] 4744#32716: *1 [lua] content_by_lua(nginx.conf:40):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:17:30 [error] 4744#32716: *1 [lua] content_by_lua(nginx.conf:40):33: Captcha valid, proceeding to proxy..., client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:17:32 [error] 4744#32716: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:20:59 [notice] 13540#856: signal process started
+2025/01/06 03:21:16 [error] 26308#22104: *5 [lua] content_by_lua(nginx.conf:34):7: Received data: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:21:16 [error] 26308#22104: *5 [lua] content_by_lua(nginx.conf:34):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:21:16 [error] 26308#22104: *5 [lua] content_by_lua(nginx.conf:34):26: Captcha valid, proceeding to proxy..., client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:21:18 [error] 26308#22104: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:8080/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 03:25:14 [error] 26308#22104: *9 [lua] content_by_lua(nginx.conf:34):7: Received data: {"captchaValid": true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost"
+2025/01/06 03:25:14 [error] 26308#22104: *9 [lua] content_by_lua(nginx.conf:34):19: Decoded body: {"captchaValid":true}, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost"
+2025/01/06 03:25:14 [error] 26308#22104: *9 [lua] content_by_lua(nginx.conf:34):26: Captcha valid, proceeding to proxy..., client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost"
+2025/01/06 03:26:36 [notice] 4744#38712: signal process started
+2025/01/06 18:24:11 [notice] 33668#31288: signal process started
+2025/01/06 18:24:32 [error] 23944#35464: *1 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:24:40 [error] 23944#35464: *2 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:24:48 [error] 23944#35464: *2 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/06 18:24:50 [error] 23944#35464: *3 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:27:39 [error] 23944#35464: *5 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/06 18:27:39 [error] 23944#35464: *6 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/06 18:27:39 [error] 23944#35464: *7 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/06 18:27:41 [error] 23944#35464: *8 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", host: "localhost"
+2025/01/06 18:27:42 [error] 23944#35464: *9 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:27:49 [error] 23944#35464: *10 CreateFile() "./html/captcha_validate" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:28:14 [notice] 34020#37960: signal process started
+2025/01/06 18:28:45 [error] 25376#35980: *11 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/06 18:28:45 [error] 25376#35980: *12 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/06 18:28:47 [error] 25376#35980: *13 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:28:56 [error] 25376#35980: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:5001/captcha_validate", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:38:53 [error] 25376#35980: *20 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:5001/captcha_validate", host: "localhost"
+2025/01/06 18:38:53 [error] 25376#35980: *23 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:39:01 [notice] 27188#18424: signal process started
+2025/01/06 18:39:09 [error] 28248#30128: *25 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:5001/captcha_validate", host: "localhost"
+2025/01/06 18:39:10 [error] 25376#35980: *24 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:50):2: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file './site/lualib/resty\http.ljbc'
+	no file './site/lualib/resty\http/init.ljbc'
+	no file './lualib/resty\http.ljbc'
+	no file './lualib/resty\http/init.ljbc'
+	no file './site/lualib/resty\http.lua'
+	no file './site/lualib/resty\http/init.lua'
+	no file './lualib/resty\http.lua'
+	no file './lualib/resty\http/init.lua'
+	no file '.\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http.lua'
+	no file 'D:\Official\Final\Implementation\nginx\lua\resty\http\init.lua'
+	no file './site/lualib/resty\http.so'
+	no file './lualib/resty\http.so'
+	no file '.\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty\http.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty\http.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\lualib\resty.so'
+	no file 'D:\Official\Final\Implementation\nginx\resty.dll'
+	no file 'D:\Official\Final\Implementation\nginx\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	access_by_lua(nginx.conf:50):2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/captcha/"
+2025/01/06 18:40:50 [notice] 20292#33232: signal process started
+2025/01/06 18:41:01 [error] 38872#23476: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/06 18:41:32 [error] 38872#23476: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 18:46:35 [error] 38872#23476: *21 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:5001/captcha_validate", host: "localhost"
+2025/01/06 18:47:56 [error] 38872#23476: *27 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 18:52:31 [error] 38872#23476: *44 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha_validate HTTP/1.1", upstream: "http://[::1]:5001/captcha_validate", host: "localhost"
+2025/01/06 19:05:49 [error] 38872#23476: *48 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/06 19:05:51 [error] 38872#23476: *48 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/06 19:05:59 [error] 38872#23476: *48 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://validation_server/", host: "localhost"
+2025/01/06 19:19:57 [error] 38872#23476: *55 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:20:14 [error] 38872#23476: *64 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 19:20:28 [error] 38872#23476: *84 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:20:42 [error] 38872#23476: *131 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:21:27 [error] 38872#23476: *64 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 19:21:41 [error] 38872#23476: *183 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:21:55 [error] 38872#23476: *230 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:28:17 [error] 38872#23476: *239 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:31:11 [error] 38872#23476: *249 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 19:38:43 [notice] 24692#31136: signal process started
+2025/01/06 19:38:46 [notice] 32620#27496: signal process started
+2025/01/06 19:38:46 [error] 32620#27496: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/06 19:39:01 [notice] 22540#15080: signal process started
+2025/01/06 19:39:46 [error] 3252#19424: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /captcha HTTP/1.1", upstream: "http://[::1]:5001/captcha", host: "localhost"
+2025/01/06 19:42:39 [error] 3252#19424: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/06 19:57:14 [notice] 37524#26428: signal process started
+2025/01/06 19:57:18 [notice] 19552#33948: signal process started
+2025/01/06 19:57:18 [error] 19552#33948: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/06 19:57:23 [notice] 35748#18052: signal process started
+2025/01/06 19:57:23 [error] 35748#18052: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/06 20:01:23 [error] 34308#32856: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost", referrer: "http://localhost:8080/"
+2025/01/06 20:01:43 [error] 34308#32856: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 20:06:34 [error] 34308#32856: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost", referrer: "http://localhost:8080/"
+2025/01/06 20:26:36 [error] 34308#32856: *32 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/06 20:26:51 [error] 34308#32856: *32 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/06 20:29:44 [error] 34308#32856: *48 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/06 20:30:06 [error] 34308#32856: *50 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/06 20:33:13 [notice] 37660#36068: signal process started
+2025/01/06 20:53:07 [notice] 37976#33232: signal process started
+2025/01/06 20:58:01 [notice] 34044#22864: signal process started
+2025/01/06 20:58:23 [error] 22704#25580: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.3", referrer: "http://192.168.1.3/"
+2025/01/06 20:59:40 [error] 22704#25580: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost", referrer: "http://192.168.1.3:8080/"
+2025/01/06 21:00:31 [error] 22704#25580: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost", referrer: "http://192.168.1.3:8080/"
+2025/01/06 21:00:56 [error] 22704#25580: *22 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3", referrer: "http://192.168.1.3:8080/"
+2025/01/06 21:01:49 [error] 22704#25580: *28 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.2, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.3", referrer: "http://192.168.1.3/"
+2025/01/06 22:11:26 [error] 31536#38216: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3"
+2025/01/06 22:30:58 [error] 21896#25380: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3"
+2025/01/06 22:31:11 [error] 21896#25380: *192 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3"
+2025/01/06 22:31:43 [error] 21896#25380: *250 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.3", referrer: "http://192.168.1.3/"
+2025/01/06 22:32:23 [error] 21896#25380: *323 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.3", referrer: "http://192.168.1.3/"
+2025/01/06 22:36:20 [error] 25644#15072: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3"
+2025/01/06 22:36:33 [error] 25644#15072: *202 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.3, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.3"
+2025/01/08 17:31:54 [error] 14216#26952: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 17:32:40 [notice] 22276#16836: signal process started
+2025/01/08 17:32:48 [error] 26320#7260: *6 access forbidden by rule, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.11"
+2025/01/08 17:33:13 [notice] 35372#23396: signal process started
+2025/01/08 19:14:00 [emerg] 25388#3036: unexpected "}" in D:\Official\Final\Implementation\nginx\conf\nginx.conf:33
+2025/01/08 19:16:31 [emerg] 9252#36600: unexpected "}" in ./conf/nginx.conf:33
+2025/01/08 19:16:43 [emerg] 26712#2844: CreateFile() "D:\Official\Final\Implementation
+ginx\suspicious_ips.txt" failed (123: The filename, directory name, or volume label syntax is incorrect) in ./conf/nginx.conf:32
+2025/01/08 19:17:04 [emerg] 37792#27712: CreateFile() "D:\Official\Final\Implementation
+ginx\suspicious_ips.txt" failed (123: The filename, directory name, or volume label syntax is incorrect) in ./conf/nginx.conf:32
+2025/01/08 19:18:02 [emerg] 36904#26524: CreateFile() "D:\Official\Final\Implementation\TempLogs\suspicious_ips.txt.txt" failed (2: The system cannot find the file specified) in ./conf/nginx.conf:32
+2025/01/08 19:18:13 [emerg] 4612#31352: unexpected "}" in ./conf/nginx.conf:41
+2025/01/08 19:18:21 [emerg] 9844#30920: unknown "block" variable
+2025/01/08 19:25:07 [notice] 28892#24156: signal process started
+2025/01/08 19:25:07 [error] 28892#24156: invalid PID number "" in "./logs/nginx.pid"
+2025/01/08 19:30:54 [error] 36592#37360: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:31:07 [error] 36592#37360: *198 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:40:47 [emerg] 25640#17588: CreateFile() "D:\Official\Final\Implementation
+ginx\conf\suspicious_ips.conf" failed (123: The filename, directory name, or volume label syntax is incorrect) in ./conf/nginx.conf:34
+2025/01/08 19:42:56 [error] 38188#16780: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:43:09 [error] 38188#16780: *195 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:47:15 [notice] 37080#32380: signal process started
+2025/01/08 19:48:29 [error] 25716#34028: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:48:42 [error] 25716#34028: *198 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:53:26 [notice] 14396#11212: signal process started
+2025/01/08 19:53:42 [error] 29388#36664: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:53:55 [error] 29388#36664: *186 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:56:14 [notice] 37708#30012: signal process started
+2025/01/08 19:59:36 [error] 35556#14212: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 19:59:49 [error] 35556#14212: *184 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:00:15 [notice] 3024#37436: signal process started
+2025/01/08 20:00:28 [error] 23100#3256: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:01:52 [error] 23100#3256: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/08 20:06:17 [error] 23100#3256: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:06:42 [notice] 16444#29384: signal process started
+2025/01/08 20:06:49 [error] 6268#5976: *20 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:07:15 [notice] 9524#27912: signal process started
+2025/01/08 20:07:29 [notice] 29896#26616: signal process started
+2025/01/08 20:07:39 [error] 2244#23040: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.8, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:08:38 [notice] 3268#31892: signal process started
+2025/01/08 20:08:45 [error] 30332#36780: *34 access forbidden by rule, client: 192.168.1.8, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.11"
+2025/01/08 20:09:05 [notice] 20932#30740: signal process started
+2025/01/08 20:09:13 [error] 18716#14328: *36 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:15:56 [notice] 31348#23100: signal process started
+2025/01/08 20:22:22 [notice] 26668#21624: signal process started
+2025/01/08 20:40:26 [error] 10720#33136: *43 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.8, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:5001/favicon.ico", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/08 20:42:54 [notice] 17388#3064: signal process started
+2025/01/08 20:42:54 [error] 10720#33136: *48 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.8, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/08 20:44:41 [notice] 20344#26488: signal process started
+2025/01/08 20:44:41 [error] 20344#26488: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/08 20:44:53 [error] 31964#37424: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:48:23 [error] 31964#37424: *10 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:48:26 [notice] 22792#15936: signal process started
+2025/01/08 20:49:33 [error] 30600#38264: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 20:53:28 [error] 30600#38264: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.14.1, server: 192.168.1.11, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:5001/favicon.ico", host: "192.168.14.1", referrer: "http://192.168.14.1/"
+2025/01/08 20:53:40 [notice] 23256#35552: signal process started
+2025/01/08 20:59:34 [notice] 26968#21712: signal process started
+2025/01/08 20:59:34 [error] 26968#21712: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/08 23:16:13 [error] 4428#27280: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:16:26 [error] 4428#27280: *202 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:18:03 [notice] 31304#22688: signal process started
+2025/01/08 23:51:33 [error] 37268#24688: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:51:47 [error] 37268#24688: *46 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:52:01 [error] 37268#24688: *99 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:52:14 [error] 37268#24688: *152 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:52:28 [error] 37268#24688: *201 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:52:42 [error] 37268#24688: *256 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:52:55 [error] 37268#24688: *313 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:53:09 [error] 37268#24688: *364 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:53:23 [error] 37268#24688: *413 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:57:35 [error] 37268#24688: *426 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.11, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/08 23:58:31 [error] 37268#24688: *431 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.15, server: 192.168.1.11, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/08 23:59:27 [notice] 29252#37956: signal process started
+2025/01/09 00:01:20 [error] 34108#34264: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.15, server: 192.168.1.11, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/09 00:02:51 [notice] 37464#33332: signal process started
+2025/01/09 15:14:39 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 15:14:39 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:15:07 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 15:15:07 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:15:08 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 15:15:08 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:15:08 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 15:15:08 [error] 11740#16352: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:15:14 [notice] 10380#2180: signal process started
+2025/01/09 15:15:16 [error] 11740#16352: *2 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 15:15:16 [error] 11740#16352: *3 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:15:19 [error] 30892#28004: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 15:15:21 [error] 30892#28004: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2025/01/09 15:15:21 [error] 30892#28004: *4 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://main_server/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2025/01/09 15:16:29 [notice] 38876#20852: signal process started
+2025/01/09 15:21:13 [error] 27152#34512: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 15:26:35 [error] 27152#34512: *10 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 15:32:30 [error] 27152#34512: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 15:42:23 [error] 27152#34512: *33 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 15:42:58 [error] 27152#34512: *194 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 15:43:11 [error] 27152#34512: *397 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 15:43:24 [error] 27152#34512: *608 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 15:49:48 [error] 27152#34512: *643 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /custom/ HTTP/1.1", upstream: "http://[::1]:5001/custom/", host: "localhost"
+2025/01/09 15:50:08 [notice] 7636#5536: signal process started
+2025/01/09 15:50:49 [notice] 28616#3124: signal process started
+2025/01/09 15:53:37 [notice] 26584#33248: signal process started
+2025/01/09 15:54:39 [error] 9400#26120: *654 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 15:56:58 [error] 9400#26120: *662 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 16:00:47 [error] 9400#26120: *671 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:5001/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/01/09 16:03:25 [notice] 19376#18400: signal process started
+2025/01/09 16:03:39 [error] 15812#31076: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:03:57 [error] 15812#31076: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:04:31 [error] 15812#31076: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:04:32 [error] 15812#31076: *1 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:04:36 [notice] 27200#19228: signal process started
+2025/01/09 16:04:39 [error] 15812#31076: *2 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:04:42 [error] 31024#12676: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 16:05:03 [error] 31024#12676: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 16:05:16 [error] 31024#12676: *222 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 16:05:29 [error] 31024#12676: *431 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 16:11:52 [error] 31024#12676: *455 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 16:12:05 [error] 31024#12676: *545 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 16:12:07 [error] 31024#12676: *557 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "127.0.0.1"
+2025/01/09 16:12:20 [error] 31024#12676: *752 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "127.0.0.1"
+2025/01/09 16:13:04 [notice] 38264#30864: signal process started
+2025/01/09 16:17:49 [error] 38012#3244: *911 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 16:17:53 [notice] 36648#24572: signal process started
+2025/01/09 16:17:57 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:00 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:01 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:01 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:02 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:03 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:04 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:04 [error] 28524#14540: *918 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:18:58 [error] 28524#14540: *920 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.8, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "192.168.1.11"
+2025/01/09 16:20:01 [error] 28524#14540: *924 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:01 [error] 28524#14540: *925 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:01 [error] 28524#14540: *926 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:01 [error] 28524#14540: *927 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *928 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *929 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *930 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *931 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *932 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *933 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *934 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *935 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *936 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:02 [error] 28524#14540: *937 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *938 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *939 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *940 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *941 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *942 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *943 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *944 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *945 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *946 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:03 [error] 28524#14540: *947 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *948 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *949 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *950 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *951 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *952 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *953 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *954 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *955 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:04 [error] 28524#14540: *956 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:05 [error] 28524#14540: *957 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:05 [error] 28524#14540: *958 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:05 [error] 28524#14540: *959 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:05 [error] 28524#14540: *960 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:05 [error] 28524#14540: *961 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2025/01/09 16:20:16 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:17 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:18 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:18 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:19 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:20 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:21 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:21 [error] 28524#14540: *962 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:24 [notice] 35452#17296: signal process started
+2025/01/09 16:20:27 [error] 28524#14540: *963 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:28 [error] 28524#14540: *964 access forbidden by rule, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 16:20:30 [error] 27324#34260: *965 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 16:30:37 [notice] 32884#2668: signal process started
+2025/01/09 16:30:48 [error] 27260#9272: *969 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/09 16:30:50 [error] 27260#9272: *969 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2025/01/09 16:30:50 [error] 27260#9272: *969 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://main_server/", host: "localhost"
+2025/01/09 16:32:01 [error] 27260#9272: *975 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "127.0.0.1"
+2025/01/09 16:32:11 [error] 27260#9272: *1115 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "127.0.0.1"
+2025/01/09 16:32:24 [error] 27260#9272: *1320 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "127.0.0.1"
+2025/01/09 16:37:59 [notice] 36436#29000: signal process started
+2025/01/09 16:38:04 [error] 24500#1544: *1424 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/09 16:40:40 [emerg] 12620#29332: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in ./conf/nginx.conf:68
+2025/01/09 16:41:00 [notice] 37384#31984: signal process started
+2025/01/09 16:41:04 [error] 27052#1432: *1431 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/09 16:44:35 [emerg] 20076#4260: value "200" must be between 300 and 599 in ./conf/nginx.conf:75
+2025/01/09 16:48:13 [emerg] 28604#25252: "proxy_pass" directive is duplicate in ./conf/nginx.conf:78
+2025/01/09 16:50:47 [emerg] 7584#33676: "proxy_pass" directive is duplicate in ./conf/nginx.conf:76
+2025/01/09 16:52:22 [emerg] 30556#35104: "proxy_pass" directive is duplicate in ./conf/nginx.conf:77
+2025/01/09 16:54:44 [notice] 17244#38196: signal process started
+2025/01/09 16:54:58 [error] 8960#37964: *1437 failed to load inlined Lua code: access_by_lua(nginx.conf:43):11: unexpected symbol near '#', client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.11"
+2025/01/09 16:55:30 [error] 8960#37964: *1438 failed to load inlined Lua code: access_by_lua(nginx.conf:43):11: unexpected symbol near '#', client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.11"
+2025/01/09 16:55:36 [notice] 14968#16860: signal process started
+2025/01/09 16:55:45 [error] 27476#23760: *1 failed to load inlined Lua code: access_by_lua(nginx.conf:43):11: unexpected symbol near '#', client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.11"
+2025/01/09 16:57:46 [notice] 20268#20968: signal process started
+2025/01/09 16:57:46 [error] 20268#20968: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/09 16:57:52 [notice] 32308#4744: signal process started
+2025/01/09 16:57:52 [error] 32308#4744: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/09 16:58:20 [error] 33100#35300: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "192.168.1.11"
+2025/01/09 17:10:43 [notice] 36520#22612: signal process started
+2025/01/09 17:10:52 [error] 30748#26328: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "192.168.1.11"
+2025/01/09 17:11:09 [error] 37584#35992: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "192.168.1.11"
+2025/01/09 17:14:34 [error] 37584#35992: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "192.168.1.11"
+2025/01/09 17:14:45 [notice] 21140#20844: signal process started
+2025/01/09 17:15:09 [error] 23276#38816: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:16:16 [notice] 35752#38108: signal process started
+2025/01/09 17:16:23 [error] 33400#30652: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 17:18:27 [notice] 31152#35732: signal process started
+2025/01/09 17:18:34 [error] 27496#4420: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:20:35 [notice] 23156#37340: signal process started
+2025/01/09 17:20:41 [error] 27496#4420: *26 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:20:45 [error] 28580#6812: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 17:21:27 [emerg] 5520#33048: unknown directive "Capture" in ./conf/nginx.conf:75
+2025/01/09 17:21:39 [notice] 7828#11232: signal process started
+2025/01/09 17:21:48 [error] 9276#35428: *35 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:29:46 [emerg] 28460#30916: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in ./conf/nginx.conf:68
+2025/01/09 17:30:09 [notice] 4620#33568: signal process started
+2025/01/09 17:30:15 [error] 30892#32988: *47 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:35:53 [error] 30892#32988: *56 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/validate", upstream: "http://[::1]:8080/validate", host: "localhost"
+2025/01/09 17:41:48 [emerg] 30952#31964: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in ./conf/nginx.conf:67
+2025/01/09 17:42:18 [notice] 31384#31604: signal process started
+2025/01/09 17:42:21 [error] 20888#34884: *64 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:42:23 [error] 20888#34884: *65 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:42:23 [error] 20888#34884: *66 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:42:24 [error] 20888#34884: *67 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:46:22 [emerg] 13884#27752: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in ./conf/nginx.conf:105
+2025/01/09 17:48:36 [error] 20888#34884: *69 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:48:37 [error] 20888#34884: *70 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:48:44 [notice] 24408#13500: signal process started
+2025/01/09 17:48:49 [error] 20888#34884: *71 lua entry thread aborted: runtime error: access_by_lua(nginx.conf:74):5: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+coroutine 0:
+	[C]: in function 'get_post_args'
+	access_by_lua(nginx.conf:74):5: in main chunk, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/09 17:59:21 [notice] 30800#33244: signal process started
+2025/01/09 17:59:34 [error] 34804#18824: *74 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 18:04:33 [notice] 37280#24020: signal process started
+2025/01/09 18:04:38 [error] 32264#38864: *79 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 18:07:44 [emerg] 38696#19760: unknown "upstream" variable
+2025/01/09 18:11:10 [notice] 33508#29132: signal process started
+2025/01/09 18:11:16 [error] 33420#19440: *85 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 18:11:29 [error] 33420#19440: *85 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /captcha HTTP/1.1", upstream: "http://[::1]:5001/captcha", host: "localhost"
+2025/01/09 18:11:53 [error] 33420#19440: *85 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /captcha HTTP/1.1", upstream: "http://[::1]:5001/captcha", host: "localhost"
+2025/01/09 18:12:00 [notice] 4584#33436: signal process started
+2025/01/09 18:12:10 [error] 32480#3140: *229 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 18:13:16 [notice] 15820#36072: signal process started
+2025/01/09 18:13:35 [error] 30468#21140: *237 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 19:02:00 [notice] 32128#28292: signal process started
+2025/01/09 19:02:02 [notice] 33928#26180: signal process started
+2025/01/09 19:02:02 [error] 33928#26180: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/01/09 19:30:07 [error] 20236#21212: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 19:30:09 [error] 20236#21212: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/09 19:32:25 [error] 20236#21212: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 19:46:47 [notice] 33940#23276: signal process started
+2025/01/09 19:50:21 [error] 29448#36180: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 19:50:37 [error] 29448#36180: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 19:50:39 [error] 29448#36180: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://127.0.0.1:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 19:51:19 [error] 29448#36180: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 19:56:16 [notice] 35640#9928: signal process started
+2025/01/09 19:56:40 [error] 14284#6032: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 19:56:42 [error] 14284#6032: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:08:55 [error] 14284#6032: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:09:02 [notice] 15124#12304: signal process started
+2025/01/09 20:09:08 [error] 14284#6032: *41 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:13:35 [notice] 10348#9928: signal process started
+2025/01/09 20:13:43 [error] 37388#27632: *49 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 20:13:48 [error] 37388#27632: *49 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:14:32 [notice] 14612#20784: signal process started
+2025/01/09 20:14:39 [error] 37388#27632: *51 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:15:45 [error] 5204#2328: *63 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 20:21:19 [error] 5204#2328: *71 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:21:39 [notice] 12564#23908: signal process started
+2025/01/09 20:21:45 [error] 5204#2328: *72 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:28:34 [error] 6856#26536: *80 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:28:46 [notice] 13656#32496: signal process started
+2025/01/09 20:29:17 [error] 12620#15820: *85 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/09 20:29:25 [error] 12620#15820: *85 could not find named location "@redirect_to_main_server" while sending to client, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://127.0.0.1:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:29:59 [error] 12620#15820: *89 could not find named location "@redirect_to_main_server" while sending to client, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://127.0.0.1:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:30:17 [error] 12620#15820: *91 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:30:17 [error] 12620#15820: *91 could not find named location "@redirect_to_main_server" while sending to client, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://127.0.0.1:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:31:06 [error] 12620#15820: *95 could not find named location "@redirect_to_main_server" while sending to client, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://127.0.0.1:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:32:47 [notice] 22728#24480: signal process started
+2025/01/09 20:32:55 [error] 34476#30276: *99 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:32:57 [error] 34476#30276: *99 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/09 20:35:20 [notice] 21564#27700: signal process started
+2025/01/10 00:45:29 [error] 35444#16160: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 00:45:44 [error] 35444#16160: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 00:51:19 [error] 35444#16160: *13 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost"
+2025/01/10 01:08:10 [notice] 6568#35740: signal process started
+2025/01/10 01:08:17 [error] 16396#4432: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:08:36 [error] 16396#4432: *17 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:14:15 [error] 16396#4432: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:14:29 [error] 16396#4432: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:14:51 [error] 16396#4432: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:8080/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:16:06 [notice] 18708#30520: signal process started
+2025/01/10 01:21:56 [notice] 22152#32776: signal process started
+2025/01/10 01:22:04 [error] 31024#10636: *50 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:22:58 [notice] 18812#25068: signal process started
+2025/01/10 01:23:04 [error] 11616#33848: *56 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /ngx.exec(@redirect_to_main_server) HTTP/1.1", upstream: "http://[::1]:5001/ngx.exec(@redirect_to_main_server)", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:23:23 [error] 11616#33848: *56 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:23:53 [notice] 30652#26772: signal process started
+2025/01/10 01:24:03 [error] 21596#35528: *67 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:24:40 [notice] 11572#24940: signal process started
+2025/01/10 01:25:21 [notice] 7576#6756: signal process started
+2025/01/10 01:25:26 [error] 34656#23468: *91 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /success HTTP/1.1", upstream: "http://[::1]:8080/success", host: "localhost"
+2025/01/10 01:26:58 [error] 34656#23468: *96 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /success HTTP/1.1", upstream: "http://[::1]:8080/success", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:28:39 [notice] 12196#23928: signal process started
+2025/01/10 01:28:45 [error] 38808#31520: *103 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2025/01/10 01:36:10 [error] 38808#31520: *107 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:36:41 [emerg] 37664#27396: unexpected "}" in ./conf/nginx.conf:89
+2025/01/10 01:37:42 [emerg] 14056#16724: unexpected "}" in ./conf/nginx.conf:89
+2025/01/10 01:38:25 [notice] 19252#13400: signal process started
+2025/01/10 01:39:19 [notice] 38072#21276: signal process started
+2025/01/10 01:39:36 [error] 29296#14556: *117 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:40:38 [notice] 33780#20380: signal process started
+2025/01/10 01:40:42 [error] 12436#36300: *122 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /success HTTP/1.1", upstream: "http://[::1]:8080/success", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:41:05 [error] 12436#36300: *122 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /success HTTP/1.1", upstream: "http://[::1]:8080/success", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:41:42 [notice] 4360#31520: signal process started
+2025/01/10 01:41:50 [error] 9040#29864: *140 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:46:09 [notice] 15460#24720: signal process started
+2025/01/10 01:46:16 [error] 26588#35872: *145 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 01:46:32 [notice] 7320#37104: signal process started
+2025/01/10 01:47:03 [error] 24556#26756: *154 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 01:47:52 [notice] 13228#22712: signal process started
+2025/01/10 01:48:03 [error] 35304#24184: *160 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 02:00:13 [notice] 10912#3688: signal process started
+2025/01/10 02:00:32 [error] 8768#30076: *168 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 02:02:04 [error] 8768#30076: *172 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/10 02:02:08 [error] 8768#30076: *173 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/10 02:02:10 [error] 8768#30076: *174 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/01/10 02:02:12 [error] 8768#30076: *175 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:14 [error] 8768#30076: *176 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:14 [error] 8768#30076: *177 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:19 [error] 8768#30076: *178 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:20 [error] 8768#30076: *179 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:45 [notice] 5460#20128: signal process started
+2025/01/10 02:02:48 [error] 8768#30076: *180 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:02:49 [error] 8768#30076: *181 could not find named location "@main_server", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2025/01/10 02:05:11 [notice] 35140#19948: signal process started
+2025/01/10 02:05:21 [error] 25272#29108: *187 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 02:06:56 [error] 25272#29108: *198 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.5, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/10 02:33:19 [notice] 24956#11424: signal process started
+2025/01/10 09:31:33 [error] 33776#16868: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 09:31:35 [error] 33776#16868: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/10 09:48:35 [error] 33776#16868: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 192.168.1.8, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:5001/favicon.ico", host: "192.168.1.11", referrer: "http://192.168.1.11/"
+2025/01/10 09:55:27 [error] 33776#16868: *35 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 09:55:29 [error] 33776#16868: *35 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/10 09:55:29 [error] 33776#16868: *35 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://validation_server/", host: "localhost"
+2025/01/10 10:04:55 [error] 33776#16868: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/10 10:04:57 [error] 33776#16868: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 10:05:22 [error] 33776#16868: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/01/10 10:05:24 [error] 33776#16868: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 10:06:28 [error] 33776#16868: *39 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /validate HTTP/1.1", upstream: "http://[::1]:5001/validate", host: "localhost", referrer: "http://localhost/"
+2025/01/10 10:16:28 [error] 33776#16868: *57 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:5001/", host: "localhost"
+2025/01/10 10:29:24 [notice] 37792#2976: signal process started

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA Challenge</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .captcha-box {
+        display: inline-block;
+        margin-top: 20px;
+      }
+      #timer {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      #submit-btn {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Please solve the CAPTCHA and wait for 5 seconds to continue</h2>
+
+    <!-- CAPTCHA Challenge -->
+    <div class="captcha-box">
+      <label for="captcha-input">What is 5 + 3?</label>
+      <input type="text" id="captcha-input" required />
+    </div>
+
+    <!-- Timer -->
+    <div id="timer">Please wait for 5 seconds...</div>
+
+    <!-- Submit Button -->
+    <button id="submit-btn" disabled>Submit</button>
+
+    <script>
+      let timer = 5;
+      let captchaSolved = false;
+      let timerCompleted = false;
+
+      // Timer countdown
+      const countdown = setInterval(function () {
+        if (timer > 0) {
+          document.getElementById(
+            "timer"
+          ).innerText = `Please wait for ${timer} seconds...`;
+          timer--;
+        } else {
+          timerCompleted = true;
+          document.getElementById("timer").innerText = "Timer completed!";
+          document.getElementById("submit-btn").disabled = false;
+          clearInterval(countdown);
+        }
+      }, 1000);
+
+      // CAPTCHA input validation
+      document
+        .getElementById("captcha-input")
+        .addEventListener("input", function () {
+          const captchaInput = document.getElementById("captcha-input").value;
+          if (captchaInput === "8") {
+            captchaSolved = true;
+          } else {
+            captchaSolved = false;
+          }
+        });
+
+      // Submit button handler
+      document
+        .getElementById("submit-btn")
+        .addEventListener("click", function () {
+          if (captchaSolved && timerCompleted) {
+            // Send validation data to NGINX, which will forward it to Python server
+            fetch("/captcha_validate", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ captchaValid: true }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.success) {
+                  alert("Validation successful.");
+                  window.location.href = "/main"; // Redirect after success
+                } else {
+                  alert("Captcha validation failed. Try again.");
+                }
+              })
+              .catch((error) => {
+                alert("Error during validation.");
+              });
+          } else {
+            alert("Please solve the CAPTCHA and wait for the timer.");
+          }
+        });
+    </script>
+  </body>
+</html>

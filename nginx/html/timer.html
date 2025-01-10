@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <h2>Please wait for 5 seconds...</h2>
+    <div id="timer"></div>
+
+    <script>
+      let timer = 5;
+      const countdown = setInterval(function () {
+        if (timer > 0) {
+          document.getElementById(
+            "timer"
+          ).innerText = `Please wait for ${timer} seconds...`;
+          timer--;
+        } else {
+          clearInterval(countdown);
+          alert("Timer completed!");
+          window.location.href = "/captcha"; // Redirect to CAPTCHA page after timer completion
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
