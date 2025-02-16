@@ -1,76 +1,50 @@
-from flask import Flask, request, jsonify, redirect
-import time
-import logging
-import os
+from flask import Flask, request, redirect, jsonify
 
 app = Flask(__name__)
 
-captcha_data = {"captcha": "12345"}  # Example CAPTCHA for testing
-request_timestamps = {}  # Store timestamps of requests for each IP
-# File to store suspicious IPs
-suspicious_ips_file = "suspicious_ips.txt"
-
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-
-
-def add_ip_to_suspicious_list(ip):
-    """
-    Add an IP to the suspicious list file if it's not already there,
-    and reload NGINX after adding the IP.
-    """
-    ip_added = False
-    with open(suspicious_ips_file, "a+") as file:
-        file.seek(0)
-        existing_ips = set(file.read().splitlines())
-        deny_ip = f"deny {ip};"
-        if deny_ip not in existing_ips:
-            file.write(f"deny {ip};\n")
-            ip_added = True
-            logging.warning(f"Added IP {ip} to suspicious list.")
-
-    # Reload NGINX only if a new IP was added
-    if ip_added:
-        reload_nginx()
-
-
-def reload_nginx():
-    """
-    Reload NGINX to apply changes.
-    """
-    try:
-        os.system("nginx -s reload")
-        logging.info("NGINX reloaded successfully.")
-    except Exception as e:
-        logging.error(f"Error reloading NGINX: {e}")
+# Example CAPTCHA for testing
+captcha_data = {"captcha": "12345"}
 
 
 @app.route("/", methods=["GET"])
 def serve_captcha():
     """
-    Serve the CAPTCHA challenge.
+    Serve the CAPTCHA challenge with a 5-second timer.
     """
-    client_ip = request.remote_addr
+    original_request = request.args.get("redirect_uri", "/")  # Default to "/"
 
-    # Track the request timestamp for the IP
-    if client_ip not in request_timestamps:
-        request_timestamps[client_ip] = time.time()
-    else:
-        # Check if the client has already requested within 5 seconds
-        elapsed_time = time.time() - request_timestamps[client_ip]
-        if elapsed_time < 5:
-            # Add IP to suspicious list if a new request comes within 5 seconds
-            add_ip_to_suspicious_list(client_ip)
-            return jsonify({"error": "Your IP is blocked due to suspicious activity."}), 403
-
-    return """
+    return f"""
     <html>
+    <head>
+        <script>
+            window.onload = function() {{
+                const submitButton = document.getElementById("submit-btn");
+                const timerDisplay = document.getElementById("timer");
+                let countdown = 5;
+
+                submitButton.disabled = true;
+
+                const interval = setInterval(() => {{
+                    timerDisplay.innerText = "Please wait " + countdown + " seconds before submitting.";
+                    countdown--;
+
+                    if (countdown < 0) {{
+                        clearInterval(interval);
+                        submitButton.disabled = false;
+                        timerDisplay.innerText = "You can now submit the CAPTCHA.";
+                    }}
+                }}, 1000);
+            }};
+        </script>
+    </head>
     <body>
         <h2>Complete CAPTCHA to Proceed</h2>
+        <p id="timer">Initializing timer...</p>
         <form action="/validate" method="POST">
+            <input type="hidden" name="original_request" value="{original_request}">
             <label for="captcha">Enter CAPTCHA: 12345</label>
-            <input type="text" id="captcha" name="captcha">
-            <button type="submit">Submit</button>
+            <input type="text" id="captcha" name="captcha" required>
+            <button type="submit" id="submit-btn">Submit</button>
         </form>
     </body>
     </html>
@@ -80,30 +54,22 @@ def serve_captcha():
 @app.route("/validate", methods=["POST"])
 def validate_captcha():
     """
-    Validate CAPTCHA and ensure 5 seconds have passed since the initial request.
+    Validate CAPTCHA and redirect back to the requested endpoint if successful.
     """
-    client_ip = request.remote_addr
-    current_time = time.time()
-
-    # Ensure 5 seconds have passed since the initial request
-    if client_ip in request_timestamps:
-        elapsed_time = current_time - request_timestamps[client_ip]
-        if elapsed_time < 5:
-            # Add to suspicious IP list if conditions are violated
-            add_ip_to_suspicious_list(client_ip)
-            return jsonify({"error": "Please wait 5 seconds before submitting."}), 403
-
-    # Check CAPTCHA validity
     user_input = request.form.get("captcha")
-    nginx_host = request.host
+    original_request = request.form.get(
+        "original_request", "/")  # Default to "/"
 
     if user_input == captcha_data["captcha"]:
-        # CAPTCHA is correct. Return a success response with custom header
-        response = redirect(f"http://{nginx_host}/")
+        # CAPTCHA is correct. Set a success cookie
+        redirect_url = f"http://{request.host}{original_request}"
+        response = redirect(redirect_url)
+
         response.set_cookie("captcha_status", "valid",
                             max_age=3600)  # Set for 1 hour
         return response
     else:
+        # Invalid CAPTCHA
         return jsonify({"error": "Invalid CAPTCHA. Try again."}), 403
 
 

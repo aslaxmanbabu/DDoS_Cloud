@@ -448,3 +448,89 @@ Starting test server at http://0.0.0.0:8080
 127.0.0.1 - - [09/Jan/2025:15:42:31] "GET / HTTP/1.0" 200 -
 127.0.0.1 - - [09/Jan/2025:15:42:31] "GET / HTTP/1.0" 200 -
 127.0.0.1 - - [09/Jan/2025:15:42:31] "GET / HTTP/1.0" 200 -
+Starting test server at http://0.0.0.0:8080
+127.0.0.1 - - [20/Jan/2025:21:26:33] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: localhost
+X-Real-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+Connection: close
+sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+127.0.0.1 - - [20/Jan/2025:21:26:54] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: 192.168.1.9
+X-Real-IP: 192.168.1.9
+X-Forwarded-For: 192.168.1.9
+Connection: close
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+127.0.0.1 - - [20/Jan/2025:21:28:14] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: 192.168.1.9
+X-Real-IP: 192.168.1.10
+X-Forwarded-For: 192.168.1.10
+Connection: close
+Cache-Control: max-age=0
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+127.0.0.1 - - [20/Jan/2025:21:28:24] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: 192.168.1.9
+X-Real-IP: 192.168.1.10
+X-Forwarded-For: 192.168.1.10
+Connection: close
+Cache-Control: max-age=0
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+127.0.0.1 - - [20/Jan/2025:21:29:21] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: 192.168.1.9
+X-Real-IP: 192.168.1.9
+X-Forwarded-For: 192.168.1.9
+Connection: close
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+Starting test server at http://0.0.0.0:8080
+127.0.0.1 - - [21/Jan/2025:19:14:19] "GET / HTTP/1.0" 200 -
+Headers received from NGINX proxy:
+Host: 192.168.1.18
+X-Real-IP: 192.168.1.11
+X-Forwarded-For: 192.168.1.11
+Connection: close
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,hi;q=0.8
+Starting test server at http://0.0.0.0:8080
+192.168.1.11 - - [21/Jan/2025:19:18:39] "GET / HTTP/1.0" 200 -
+192.168.1.11 - - [21/Jan/2025:19:18:53] "GET / HTTP/1.0" 200 -

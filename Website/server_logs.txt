@@ -1,0 +1,176 @@
+Starting server at http://0.0.0.0:8080
+::1 - - [24/Jan/2025:16:21:18] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/css/frame.css HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/css/controls.css HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/css/custom.css HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/js/footer.js HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/js/menu.js HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/dummay-img.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/home.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/calendar.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/close.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/play.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/terrain.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/pause.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/stop.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/collection.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/next.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/back.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/setting.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/user.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/book.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/share.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/link.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/app-store-badge.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/google-play-badge.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/dummy-background.jpeg HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/dummay-img-long.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/loading.gif HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/vid/mov_bbb.mp4 HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /menu HTTP/1.1" 200 -
+::1 - - [24/Jan/2025:16:21:18] "GET /static/img/menu.png HTTP/1.1" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/css/frame.css HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/css/controls.css HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/css/custom.css HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/js/menu.js HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/js/footer.js HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/dummay-img.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/home.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/calendar.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/play.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/pause.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/stop.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:08] "GET /static/img/terrain.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/close.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/collection.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/next.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/back.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/setting.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/book.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/user.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/share.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/link.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/app-store-badge.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/google-play-badge.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/dummy-background.jpeg HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/dummay-img-long.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/loading.gif HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/vid/mov_bbb.mp4 HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/vid/mov_bbb.mp4 HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:09] "GET /static/img/menu.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /static/js/custom.js HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /static/css/widgets.css HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /static/js/widgets.js HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /static/js/util.js HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /static/img/choose-image.png HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:12] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:14] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:14] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:16] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:30] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:32] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:33] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:36] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:36] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:06:40] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:07:55] "GET /menu HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:17:16:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:16:53] "GET /menu HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:17:17:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:17:56] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:17:56] "GET /footer HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:18:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:18:14] "GET /menu HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:18:14] "GET /footer HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:17:29:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:30:05] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:30:17] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:31:00] "GET /widgets HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:17:33:11] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:17:59:54] "GET / HTTP/1.0" 200 -
+::1 - - [25/Jan/2025:18:00:10] "GET / HTTP/1.1" 200 -
+::1 - - [25/Jan/2025:18:01:52] "GET / HTTP/1.1" 200 -
+::1 - - [25/Jan/2025:18:03:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jan/2025:18:10:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:10:59] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:11:01] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:11:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:11:06] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:11:07] "GET /embedding HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:18:11:44] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [25/Jan/2025:18:32:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:18:33:13] "GET / HTTP/1.0" 200 -
+192.168.1.14 - - [25/Jan/2025:18:35:20] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+Cannot decrypt cookie value, create a new fresh session
+Error handling request
+Traceback (most recent call last):
+  File "C:\Users\lbabu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\web_protocol.py", line 480, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lbabu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\web_app.py", line 569, in _handle
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lbabu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\web_middlewares.py", line 117, in impl
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lbabu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp_session\__init__.py", line 191, in factory
+    response = await handler(request)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Official\Final\Implementation\Website\app.py", line 95, in log_requests_middleware
+    response = await handler(request)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Official\Final\Implementation\Website\app.py", line 44, in index
+    await aiohttp_session.invalidate(request)  # Invalidate session after use
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiohttp_session' has no attribute 'invalidate'
+Starting server at http://0.0.0.0:8080
+Cannot decrypt cookie value, create a new fresh session
+127.0.0.1 - - [25/Jan/2025:18:54:10] "GET / HTTP/1.0" 200 -
+Cannot decrypt cookie value, create a new fresh session
+Starting server at http://0.0.0.0:8080
+Cannot decrypt cookie value, create a new fresh session
+127.0.0.1 - - [25/Jan/2025:19:16:29] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:19:31:24] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [25/Jan/2025:19:41:55] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [28/Jan/2025:00:11:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jan/2025:00:11:41] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+Cannot decrypt cookie value, create a new fresh session
+127.0.0.1 - - [28/Jan/2025:01:21:39] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jan/2025:01:21:45] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [01/Feb/2025:23:37:33] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [01/Feb/2025:23:55:57] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [02/Feb/2025:00:51:50] "GET /widgets HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+::1 - - [02/Feb/2025:12:32:03] "GET / HTTP/1.1" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [02/Feb/2025:19:22:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [02/Feb/2025:19:24:26] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [02/Feb/2025:19:52:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [02/Feb/2025:19:53:02] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [02/Feb/2025:19:53:22] "GET /widgets HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [04/Feb/2025:12:23:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [04/Feb/2025:12:23:21] "GET /widgets HTTP/1.0" 200 -
+127.0.0.1 - - [04/Feb/2025:12:24:00] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [04/Feb/2025:12:38:42] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [04/Feb/2025:12:39:35] "GET /embedding HTTP/1.0" 200 -
+127.0.0.1 - - [04/Feb/2025:12:39:47] "GET / HTTP/1.0" 200 -
+Starting server at http://0.0.0.0:8080
+127.0.0.1 - - [04/Feb/2025:14:54:57] "GET / HTTP/1.0" 200 -

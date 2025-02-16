@@ -38,5 +38,5 @@ def test_conditions(url):
 
 if __name__ == "__main__":
     # Replace with your server's URL
-    url_to_test = "http://127.0.0.1:80"
+    url_to_test = "http://127.0.0.1:80/embedding"
     test_conditions(url_to_test)

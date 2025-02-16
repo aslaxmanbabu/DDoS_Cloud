@@ -10,10 +10,10 @@ logging.getLogger("aiohttp.access").setLevel(logging.CRITICAL)
 
 async def test_webpage(request):
     """
-    Display a simple test webpage and log the request details.
+    Display a simple test webpage, log the request details, and debug headers.
     """
-    # Get client IP and request details
-    client_ip = request.remote or "unknown"
+    # Get client IP from X-Real-IP or fallback to request.remote
+    client_ip = request.headers.get('X-Real-IP', request.remote or "unknown")
     request_line = f"{request.method} {request.path} HTTP/{request.version.major}.{request.version.minor}"
 
     # Log the request details
